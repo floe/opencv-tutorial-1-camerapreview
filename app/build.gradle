@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.opencv.samples.tutorial1"
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 8
     }
 
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.github.floe:opencv-android:3.4.0'
+    compile 'com.github.floe:opencv-android:3.4.1'
 }
